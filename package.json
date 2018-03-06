@@ -1,0 +1,12 @@
+{
+    "name": "test_app",
+    "version": "0.0.1",
+    "type": "django",
+    "author": "w4n9",
+    "email": "w4n9ya@gmail.com",
+    "time": "%Y-%m-%d",
+    "pip": [],
+    "utils": [],
+    "apps": [],
+    "middleware": []
+}

@@ -1,12 +1,30 @@
 {
-    "name": "test_app",
+    "name": "test_project",
+    "path": "/Users/wangyazhe/Code/github",
     "version": "0.0.1",
     "type": "django",
     "author": "w4n9",
     "email": "w4n9ya@gmail.com",
     "time": "%Y-%m-%d",
-    "pip": [],
-    "utils": [],
-    "apps": [],
-    "middleware": []
+    "pip": [
+        {"name": "django", "version": "1.11"}
+    ],
+    "utils": [
+        {"name": "elasticsearch", "version": "0.0.1"},
+        {"name": "redis", "version": "0.0.1"},
+        {"name": "postgresql", "version": "0.0.1"},
+        {"name": "hash", "version": "0.0.1"},
+        {"name": "encrypt", "version": "0.0.1"},
+        {"name": "timestamp", "version": "0.0.1"},
+        {"name": "character", "version": "0.0.1"},
+        {"name": "rabbitmq", "version": "0.0.1"},
+        {"name": "kafka", "version": "0.0.1"}
+    ],
+    "apps": [
+        {"name": "my_app"},
+        {"name": "login", "version": "0.0.1"}
+    ],
+    "middleware": [
+        {"name": "test", "version": "0.0.1"}
+    ]
 }

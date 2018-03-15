@@ -1,6 +1,6 @@
 {
-    "name": "test_project",
-    "path": "/Users/wangyazhe/Code/github",
+    "name": "sx_mta",
+    "path": "/Users/wangyazhe/Code/gitlab",
     "version": "0.0.1",
     "type": "django",
     "author": "w4n9",
@@ -11,17 +11,11 @@
     ],
     "utils": [
         {"name": "elasticsearch", "version": "0.0.1"},
-        {"name": "redis", "version": "0.0.1"},
-        {"name": "postgresql", "version": "0.0.1"},
-        {"name": "hash", "version": "0.0.1"},
-        {"name": "encrypt", "version": "0.0.1"},
-        {"name": "timestamp", "version": "0.0.1"},
-        {"name": "character", "version": "0.0.1"},
-        {"name": "rabbitmq", "version": "0.0.1"},
         {"name": "kafka", "version": "0.0.1"}
     ],
     "apps": [
-        {"name": "my_app"},
+        {"name": "rule"},
+	{"name": "homology"},
         {"name": "login", "version": "0.0.1"}
     ],
     "middleware": [
